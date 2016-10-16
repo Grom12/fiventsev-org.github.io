@@ -1,0 +1,480 @@
+
+
+body{
+
+  margin: 0;
+  width: auto;
+  vertical-align: middle;
+  text-align: center;
+  height:auto;
+  background: #C8C8C8;
+
+}
+
+.phones{
+
+  width: auto;
+  height: 1300px;
+
+}
+
+.phones img{
+
+  max-width: 100%;
+  min-width: 5%;
+
+}
+
+article{
+
+  background: #FFF;
+
+}
+
+header {
+
+ position: absolute;
+ background: rgba(255,255,255,0.4);
+ width: 100%;
+ height: 30pt;
+ font-size: 16px;
+ font-family: sans-serif;
+
+}
+
+.logo{
+
+  position: static;
+  margin-left: 135px;
+  float: left;
+  margin-top: 5px;
+  width: 80pt;
+  height: 20pt;
+
+}
+
+.logo img {height: 30px;}
+
+.support {
+
+  position: static;
+  float: right;
+  margin-right: 180px;
+  background: #fff;
+  width: 80pt;
+  margin-top: 6px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+}
+
+.support:hover {
+
+  background: #33cccc;
+  cursor:pointer;
+
+}
+
+.lang{
+  position:absolute;
+  float: right;
+  right: 130px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+
+}
+
+
+
+.lang > span{
+
+  display: block;
+  padding: 12px 10px 10px;
+  color: #666;
+
+}
+
+.lang:hover, span:hover {
+
+  background: #33cccc;
+  color: #FFF;
+  cursor:pointer
+
+}
+
+.sub-menu{
+
+  right: 0px;
+  position: absolute;
+  display: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+span:hover .sub-menu{
+
+  display: block;
+
+}
+
+.sub-menu li{
+
+  display: block;
+  color: #000;
+  background-color: #FFF;
+  padding: 10px;
+
+}
+
+.sub-menu li:nth-child(1){
+
+  height: 5px;
+  background-color: transparent;
+  color:#FFF;
+
+}
+
+.sub-menu li:nth-child(2){
+
+  margin-top: -15px;
+  border-bottom: 0.6px solid #000;
+
+}
+
+
+.banner{
+
+  background: url("img/bg.png") ;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 1000px;
+
+}
+
+.family{
+
+  position: static;
+  float: left;
+  margin-top: 125px;
+  margin-left: 21.0%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #666;
+  font-size: 26px;
+
+}
+.text
+{
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: #666;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+ .download{
+
+  position: absolute;
+  float: left;
+  margin-top: 325px;
+  margin-left: 23.0%;
+  color: #666;
+  font-family: sans-serif;
+  font-size: 14px;
+  text-align:center;
+
+}
+
+.appstore{
+
+  float: left;
+  margin-right: 10px;
+  width: 36px;
+  height: 36px;
+
+}
+
+.playmarket{
+
+  float: left;
+  margin-right: 10px;
+  width: 36px;
+  height: 36px;
+
+}
+
+ .winphone{
+
+   float: left;
+   margin-right: 10px;
+   width: 36px;
+   height: 36px;
+
+ }
+
+ .blackberry{
+
+  float: left;
+  margin-right: 10px;
+  width: 36px;
+  height: 36px;
+
+}
+
+.appstore{
+
+  background: url("img/appstore.png");
+
+}
+
+.playmarket{
+
+  background: url("img/playmarket.png");
+
+}
+
+.winphone{
+
+  background: url("img/winphone.png");
+
+}
+
+.blackberry{
+
+  background: url("img/blackberry.png");
+  margin-right: 0;
+
+}
+
+.appstore:hover{
+
+  background: url("img/appstore_hover.png");
+  cursor: pointer;
+
+}
+
+.playmarket:hover{
+
+  background: url("img/playmarket_hover.png");
+  cursor: pointer;
+
+}
+
+.winphone:hover{
+
+  background: url("img/winphone_hover.png");
+  cursor: pointer;
+
+}
+
+.blackberry:hover{
+
+  background: url("img/blackberry_hover.png");
+  cursor: pointer;
+
+}
+
+footer{
+
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgba(255,255,255,0.4);
+  height: 100px;
+  font-size: 16px;
+  font-family: sans-serif;
+
+
+}
+
+.googleplus{
+
+
+  margin-top: 5px;
+  margin-right: 10px;
+  float: right;
+  width: 36px;
+  height: 36px;
+
+}
+
+.facebook{
+
+  margin-top: 5px;
+  margin-right: 10px;
+  float: right;
+  width: 36px;
+  height: 36px;
+
+}
+
+.twitt{
+
+  margin-top: 5px;
+
+  float: right;
+  width: 36px;
+  height: 36px;
+
+}
+
+.facebook{
+
+  background: url("img/facebook.png");
+
+}
+
+.googleplus{
+
+  background: url("img/googleplus.png");
+
+}
+
+.twitt{
+
+  background: url("img/twitt.png");
+
+}
+
+.facebook:hover{
+
+  background: url("img/facebook_hover.png");
+  cursor: pointer;
+
+}
+
+.googleplus:hover{
+
+  background: url("img/googleplus_hover.png");
+  cursor: pointer;
+
+}
+
+.twitt:hover{
+
+  background: url("img/twitt_hover.png");
+  cursor: pointer;
+
+}
+
+
+.reglament
+{
+    padding: 20px;
+}
+
+.help
+{
+  position: static;
+  float: left;
+  margin-top: 32px;
+  color: #666;
+  font-size: 14px;
+}
+
+
+@media (max-width: 768px) {
+	body {padding-top: 0px}
+
+	header {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: 20px;
+     font-size: 7px;
+
+	}
+	.logo img
+  {
+    float:inherit;;
+    height: 10px;
+  }
+  .support  {
+  position:fixed;
+  padding-top: 1px;
+    height: 4pt;
+    width: 30pt;
+    margin-left: 40px;
+
+  }
+
+
+
+
+
+  .lang{
+
+    position:fixed;
+    float: right;
+    right: 0px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+
+  }
+  footer{
+
+    font-size: 7px;
+      height: 50px;
+  }
+  .twitt{
+    margin-top: 5px;
+    margin-right: 11px;
+    float: right;
+    width: 26px;
+    height: 26px;
+  }
+  .twitt{
+    background: url("img/twitt4.png");
+  }
+  .twitt:hover{
+    background: url("img/twitt_hover2.png");
+    cursor: pointer;
+  }
+
+  .googleplus{
+    margin-top: 5px;
+    margin-right: 11px;
+    float: right;
+    width: 26px;
+    height: 26px;
+  }
+  .googleplus{
+    background: url("img/googleplus2.png");
+  }
+  .googleplus:hover{
+    background: url("img/googleplus_hover2.png");
+    cursor: pointer;
+  }
+  .facebook{
+    margin-top: 5px;
+    margin-right: 10px;
+    float: right;
+    width: 26px;
+    height: 26px;
+  }
+
+  .facebook{
+    background: url("img/facebook2.png");
+  }
+
+  .facebook:hover{
+    background: url("img/facebook_hover2.png");
+    cursor: pointer;
+  }
+  .help
+  {
+
+    font-size: 7px;
+  }
+
+}
